@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.div-1{
+    background-image: url(https://prod-virtuoso.dotcmscloud.com/dA/188da7ea-f44f-4b9c-92f9-6a65064021c1/heroImage1/PowerfulReasons_hero.jpg);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+.div-2{
+    position: relative;
+    left: -45%;
+    top: 500px;
+}
+.guide{
+    color: black;
+    font-size: 25px;
+    margin-left: 2px;
+}
+.div-3{
+    display: flex;
+    margin-left: 170px;
+}
+.div-4{
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.div-5{
+    background-color: rgb(219, 212, 212);
+    margin-top: 30px;
+}
+.video{
+   margin-left: 200px;
+   margin-top: 40px;
+   
+}
+.collage{
+    margin-top: 40px ;
+    
+}
+.collage>img{
+    width: 70%;
+    height: 255px;
+}
+.div-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.north{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    margin-left: 270px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div-icon{
+    border: 2px solid;
+    border-radius: 60px;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+.div-icon>img{
+    width: 80%;
+    border-radius: 60px;
+    margin-left: 15px;
+    background-color: bisque;
+}
+.div-icon a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: brown;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.div-8{
+    margin-top: 30px;
+    background-color: rgb(237, 234, 234);
+}
+.div-8 h4{
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.review{
+    width: 100%;
+}
+.review img{
+    width: 100%;
+}
+.love{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.review h5, p{
+    text-align: center;
+    margin: 5px 20px;
+}
+.div-9{
+    background-color: rgb(40, 40, 94);
+    display: grid;
+    grid-template-columns: repeat(3,30rem);
+    padding-top: 30px;
+}
+.media ul{
+    display:grid;
+    grid-template-columns: repeat(4,4rem);
+    
+    
+}
+.media li{
+    list-style: none;
+    
+
+
+}
+.media a{
+    color: white;
+    font-size: 25px;
+    margin-left: 100px;
+}
+.div-9 h5{
+    color: orange;
+    text-align: center;
+}
+
+.about{
+    margin-left: 30px;
+}
+.about ul{
+    color: white;
+    margin-left: 140px;
+}
+.explore-img img{
+    width: 30%;
+    position: relative;
+    left: 40%;
+    top: -10px;
+}
+.review span{
+    color: green;
+    position: relative;
+    left: 35%;
+    top: 5px;
+}
+.div-icon h4{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.north h5{
+    text-align: center;
+}
+.north h5{
+    position:relative;
+    top: -90px;
+    background-color: rgb(233, 225, 60);
+    font-weight: bold;
+    visibility: hidden;
+}
+.north a{
+    background-color: coral;
+    padding: 5px;
+    margin-left: 30%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    position:relative;
+    top: -90px;
+    font-weight: bold;
+    visibility: hidden;
+}
+.north .per{
+    position:relative;
+    top: -90px;
+    background-color: rgb(233, 225, 60);
+    font-weight: bold;
+    visibility: hidden;
+}
+.card:hover h5{
+    visibility: visible;
+    
+}
+.card:hover .per{
+    visibility: visible;
+}
+.card:hover a{
+    visibility: visible;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.tagline{
+    position: relative;
+    text-align: center;
+    right: 0px;
+    top: 6%;
+    margin-left: 2%;
+    color: rgb(130, 38, 38);
+    
+}
+
